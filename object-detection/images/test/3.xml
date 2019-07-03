@@ -1,0 +1,26 @@
+<annotation>
+	<folder>my pc</folder>
+	<filename>3.png</filename>
+	<path>C:\Users\Sam\Desktop\data set\my pc\3.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>80</width>
+		<height>82</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pc</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>9</ymin>
+			<xmax>63</xmax>
+			<ymax>74</ymax>
+		</bndbox>
+	</object>
+</annotation>

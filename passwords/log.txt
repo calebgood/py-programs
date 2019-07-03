@@ -1,0 +1,1 @@
+The program doesn't work for checking duplicates if the text fields contain random charcters [eg:"ca yWu239" check this company in the Password.txt]
