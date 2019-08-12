@@ -31,10 +31,10 @@ def typer():
     pyautogui.typewrite("hello Geeks !")
     pyautogui.typewrite(["a", "left", "ctrlleft"]) 
 
-#screensize()
+screensize()
 print(mousepos())
 #clickpos(52,222)
-mousemove(100,100)
+#mousemove(100,100)
 #mousedrag_relative(50,50)
 #square()
 #scroll(200)

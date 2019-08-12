@@ -11,7 +11,7 @@ class NeuralNetwork():
         # We assign random weights to a 3 x 1 matrix, with values in the range -1 to 1
         # and mean 0.
         self.synaptic_weights = 2*random.random((3, 1)) - 1
-        print(len(self.synaptic_weights))
+        
 
     # The Sigmoid function, which describes an S shaped curve.
     # We pass the weighted sum of the inputs through this function to
@@ -34,7 +34,7 @@ class NeuralNetwork():
 
             # Calculate the error (The difference between the desired output
             # and the predicted output).
-            error = training_set_outputs - output
+            error =training_set_outputs - output
 
             # Multiply the error by the input and again by the gradient of the Sigmoid curve.
             # This means less confident weights are adjusted more.
