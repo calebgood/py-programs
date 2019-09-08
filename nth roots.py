@@ -17,6 +17,6 @@ def solve(a, b,n=2):
 
 if __name__=='__main__':
   num=int(input('Enter a number:'))
-  print(solve(0,num,3))
+  print(solve(0,num))
   print('By default the sqrt function is activated.\nYou can change that by changing the arguments')
   
